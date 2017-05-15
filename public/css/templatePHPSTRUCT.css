@@ -1,0 +1,17 @@
+.contactform {
+    text-align: right;
+    width:450px;
+    margin:0 auto;
+}
+.contactform ul li {
+    color:#C72200;
+    list-style-type: none;
+}
+@media all and (min-width: 481px) {}
+
+@media all and (max-width: 480px) {
+.contactform {text-align: right;max-width:90%;padding: 0 5%;margin:0 auto;}
+}
+
+
+

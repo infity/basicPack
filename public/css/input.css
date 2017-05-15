@@ -1,0 +1,76 @@
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+textarea {
+font-size:1.1em;
+padding:5px;
+color:#7F7F7F;
+font-family:Verdana;
+background-color:#ffffff;
+border:solid 1px #d1d1d1;
+border-radius:4px;
+width:90%;
+min-height: 170px
+}
+input[type="text"], input[type="password"] ,  input[type="email"] {
+    padding:5px;
+font-size:1.1em;
+color:#7F7F7F;
+background-color:#ffffff;
+border:solid 1px #d1d1d1;
+border-radius:4px;
+/*width:100%;*/
+}
+input[type="submit"] {
+font-size:1.4em;
+padding:10px 30px;
+color:#7F7F7F;
+border:solid 1px #AFAFAF;
+border-radius:10px;
+background: #eeeeee;
+
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
+}
+input[type="submit"]:hover {
+-webkit-transition: all 300ms ease;
+-moz-transition: all 300ms ease;
+-ms-transition: all 300ms ease;
+-o-transition: all 300ms ease;
+transition: all 300ms ease;
+padding:10px 50px;
+background: #ffffff;
+}
+
+
+input[type="reset"] {
+font-size:1em;
+color:#ffffff;
+border:solid 1px #770011;
+border-radius:4px;
+background: #f3c5bd; /* Old browsers */
+background: -moz-linear-gradient(top,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3c5bd), color-stop(50%,#e86c57), color-stop(51%,#ea2803), color-stop(75%,#ff6600), color-stop(100%,#c72200)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+}
+
+
+
+@media all and (min-width: 481px) {
+    
+}
+
+@media all and (max-width: 480px) {
+    textarea {width:90%;padding: 10px 5px;}
+    input[type="text"], input[type="password"] ,  input[type="email"] { width:90%; padding: 10px 5px;}
+    input[type="reset"], input[type="submit"] {width:50%;padding: 10px 5px;}
+    
+}

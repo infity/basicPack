@@ -1,0 +1,12 @@
+{% extends "gab.html.twig" %}
+{% block content %}
+<h4>{{ RDR.TRANSLATE.info }} {{ RDR.LAYOUT.siteName|capitalize }}</h4>
+<ul>
+    <li><a href="{{ RDR.ROUTE.home }}">{{ RDR.LAYOUT.TRANSLATE.value('menuHome') }}</a></li>
+    <li><a href="{{ RDR.ROUTE.about }}">{{ RDR.LAYOUT.TRANSLATE.value('menuAbout') }}</a></li>
+    <li><a href="{{ RDR.ROUTE.contact }}">{{ RDR.LAYOUT.TRANSLATE.value('menuContact') }}</a></li>
+    <li><a href="{{ RDR.ROUTE.mentions }}">{{ RDR.LAYOUT.TRANSLATE.value('menuMentions') }}</a></li>
+    <li><a href="{{ RDR.ROUTE.privacy }}">{{ RDR.LAYOUT.TRANSLATE.value('privacy') }}</a></li>
+    {# <li><a href="{{ RDR.ROUTE.siteMap }}">{{ RDR.LAYOUT.TRANSLATE.value('menuSitemap') }}</a></li> #}
+</ul>
+{% endblock %}

@@ -1,0 +1,19 @@
+{
+    "name": "infity/basicPack",
+    "type": "infity-package",
+    "description": "Basic website pages for Infity frameWork",
+    "keywords": ["infity", "package"],
+    "homepage": "",
+    "license": "",
+    "authors": [
+        {
+            "name": "Antoine"
+        }
+    ],
+    "require": {
+        "php": "^5.3 || ^7.0"
+    },
+    "require-dev": {
+	
+    }
+}

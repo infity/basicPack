@@ -1,0 +1,63 @@
+{% extends "gab.html.twig" %}
+{% block page_title %}Ajax and Javascript{% endblock %}
+{% block lead_content %}Ajax and Javascript test page{% endblock %}
+{% block content %}
+    
+    <a onclick="{{ myAjax.callAjax() }}"> launch ajax ({{ myAjax.callAjax }} function)</a>
+    <br>
+    <a  onclick="alertme()">launch Alert message</a>
+    <br>
+    <a  onclick="notice()">Toast notification</a>
+   
+    <div id="ajax">
+        This update will be update.
+    </div>
+{% endblock %}
+
+{% block javascript %}
+    {{parent()}}
+    var nom_utilisateur ='plop';
+    {{ myAjax.javascript|raw }}
+    
+    function alertme() {
+     alert("ceci est une alert");
+    }
+    
+    function notice() {
+        toastr["success"]("ajout d'un soldat", "Soldat");
+    }
+    
+    function ajaxUpdate(seconds){
+        // traitement
+        
+        setTimeout(ajaxUpdate(seconds),seconds*1000);
+        {{ myAjax.callAjax }};
+    }
+ 
+    ajaxUpdate(2);
+{% endblock %}    
+{#
+<script>
+    function alertme() {
+     alert("ceci est une alert");
+    }  
+
+    function testBuilder (){
+    $.ajax({
+        type: "POST",
+        url: "http://localhost/01_lab/000_MVC_STRUCT/ajax.php",
+        data: "pk=basicPack&nm=test"+"&Text="+nom_utilisateur,
+        success: function(msg){
+         $("#ajax").hide();
+         $("#ajax").empty().append(msg);
+         $("#ajax").fadeIn();
+         alert( "Data Saved: " + msg );
+         //$("#prix_pizza_"+id+"").hide();
+         //$("#prix_pizza_"+id+"").empty().append(msg);
+         //$("#prix_pizza_"+id+"").fadeIn();
+         //alert( "Data Saved: " + msg );
+        }
+      });
+      }
+</script>
+#}

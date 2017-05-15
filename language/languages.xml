@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<!-- LANGUAGE SITE -->
+<languages>
+  <!-- DEFAULT LANGUAGE --> 
+  <language detect="unknow" available="english" name="default"/>
+  <!-- GERMAN --> 
+  <language detect="de" available="english" name="Allemand"/>
+  <language detect="de_(.+)" available="english" name="Allemand"/>
+  <!--<language detect="de_at" available="english" name="Allemand (Austrian)"/>
+  <language detect="de_li" available="english" name="Allemand (Liechtenstein)"/>
+  <language detect="de_lu" available="english" name="Allemand (Luxembourg)"/>
+  <language detect="de_ch" available="english" name="Allemand (Suisse)"/>-->
+  
+  <!-- ENGLISH --> 
+  <language detect="en" available="english" name="English" supported="yes" />
+  <language detect="en_(.+)" available="english" name="English" supported="yes" />
+  <!--<language detect="en_us" available="english" name="Américain"/>
+  <language detect="en_za" available="english" name="Anglais (Afrique du sud)"/>
+  <language detect="en_bz" available="english" name="Anglais (Bélize)"/>
+  <language detect="en_gb" available="english" name="Anglais (Grande Bretagne)"/>
+  <language detect="en_au" available="english" name="Australien"/>
+  <language detect="en_ca" available="english" name="Canadien"/>
+  <language detect="en_tt" available="english" name="Espagnol (Trinidad)"/>
+  <language detect="en_ie" available="english" name="Irlandais"/>
+  <language detect="en_jm" available="english" name="Jamaicain"/>
+  <language detect="en_nz" available="english" name="Néo-zélandais "/>
+  <language detect="en_ca" available="english" name="Canadien"/>
+  <language detect="en_ca" available="english" name="Canadien"/>
+  <language detect="en_ca" available="english" name="Canadien"/>
+  <language detect="en_ca" available="english" name="Canadien"/>
+  <language detect="en_ca" available="english" name="Canadien"/>-->
+  
+  <!-- ARABIC -->
+  <language detect="ar" available="english" name="Arabe"/>
+  <language detect="ar_(.+)" available="english" name="Arabe"/>
+  <!--<language detect="ar_sa" available="english" name="Arabe (Arabie Saoudite)"/>
+  <language detect="ar_bh" available="english" name="Arabe (Bahreïn)"/>
+  <language detect="ar_ae" available="english" name="Arabe (Emirat arabe uni)"/>
+  <language detect="ar_dz" available="english" name="Algérien"/>
+  <language detect="ar_eg" available="english" name="Egyptien"/>
+  <language detect="ar_iq" available="english" name="Iraquien"/>
+  <language detect="ar_jo" available="english" name="Jordanien"/>
+  <language detect="ar_kw" available="english" name="Koweitien"/>
+  <language detect="ar_lb" available="english" name="Libanais"/>
+  <language detect="ar_ly" available="english" name="Lybien"/>
+  <language detect="ar_ma" available="english" name="Marocain"/>
+  <language detect="ar_om" available="english" name="Oman"/>
+  <language detect="ar_qa" available="english" name="Quatar"/>
+  <language detect="ar_sy" available="english" name="Syrien"/>
+  <language detect="ar_tn" available="english" name="Tunisien"/>
+  <language detect="ar_ye" available="english" name="Yémen"/>-->
+  
+  <!-- FRENCH --> 
+  <language detect="fr" available="french" name="Français" supported="yes" default="yes" />
+  <language detect="fr_(.+)" available="french" name="Français" supported="yes" />
+  <!--<language detect="fr_fr" available="french" name="Français"/>
+  <language detect="fr_be" available="french" name="Français (Belgique)"/>
+  <language detect="fr_ca" available="french" name="Français (Canada)"/>
+  <language detect="fr_lu" available="french" name="Français (Luxembourg)"/>
+  <language detect="fr_ch" available="french" name="Français (Suisse)"/>-->
+  
+  <!-- SPANISH --> 
+  <language detect="es" available="english" name="Espagnol"/>
+  <language detect="es_(.+)" available="english" name="Espagnol"/>
+  <!--<language detect="es_ar" available="english" name="Espagnol (Argentine)"/>
+  <language detect="es_bo" available="english" name="Espagnol (Bolivie)"/>
+  <language detect="es_cl" available="english" name="Espagnol (Chilie)"/>
+  <language detect="es_co" available="english" name="Espagnol (Colombie)"/>
+  <language detect="es_cr" available="english" name="Espagnol (Costa Rica)"/>
+  <language detect="es_sv" available="english" name="Espagnol (El Salvador)"/>
+  <language detect="es_ec" available="english" name="Espagnol (Equateur)"/>
+  <language detect="es_gt" available="english" name="Espagnol (Guatemala)"/>
+  <language detect="es_hn" available="english" name="Espagnol (Honduras)"/>
+  <language detect="es_mx" available="english" name="Espagnol (Mexique)"/>
+  <language detect="es_ni" available="english" name="Espagnol (Nicaragua)"/>
+  <language detect="es_pa" available="english" name="Espagnol (Panama)"/>
+  <language detect="es_py" available="english" name="Espagnol (Paraguay)"/>
+  <language detect="es_pe" available="english" name="Espagnol (Pérou)"/>
+  <language detect="es_pr" available="english" name="Espagnol (Puerto Rico)"/>
+  <language detect="es_uy" available="english" name="Espagnol (Uruguay)"/>
+  <language detect="es_ve" available="english" name="Espagnol (Venezuela)"/>-->
+  
+  <!-- ITALIAN --> 
+  <language detect="it" available="english" name="Italien"/>
+  <language detect="it_ch" available="english" name="Italien (Suisse)"/>
+  
+  <!-- AFRICAN --> 
+  <language detect="af" available="english" name="Africain"/>
+  <!--<language detect="ts" available="english" name="Tsonga (Afrique du sud)"/>
+  <language detect="tn" available="english" name="Tswana (Afrique du sud)"/>
+  <language detect="xh" available="english" name="Xhosa (Afrique)"/>
+  <language detect="zu" available="english" name="Zulu (Afrique)"/>-->
+  
+  <!-- CHINESE --> 
+  <language detect="zh" available="english" name="Chinois"/>
+  <language detect="zh_(.+)" available="english" name="Chinois"/>
+  <!--<language detect="zh_hk" available="english" name="Chinois (Hong-Kong)"/>
+  <language detect="zh_cn" available="english" name="Chinois (PRC)"/>
+  <language detect="zh_sg" available="english" name="Chinois (Singapourg)"/>
+  <language detect="zh_tw" available="english" name="Chinois (Taïwan)"/>-->
+  
+  <!-- DUTCH --> 
+  <language detect="nl" available="english" name="Hollandais"/>
+  <language detect="nl_be" available="english" name="Belge"/>
+  
+  <!-- RUSSIAN --> 
+  <language detect="ru" available="english" name="Russe"/>
+  <language detect="ru_mo" available="english" name="Russe (Moldavie)"/>
+  
+  <!-- ROMANIAN --> 
+  <language detect="ro" available="english" name="Roumain (Moldavie)"/>
+  <language detect="ro_mo" available="english" name="Roumain (Moldavie)"/>
+  
+  <!-- SWESDISH --> 
+  <language detect="sv" available="english" name="Suèdois"/>
+  <language detect="sv_fi" available="english" name="Suèdois (Finlande)"/>
+  
+  <!-- PORTUGUESE --> 
+  <language detect="pt" available="english" name="Portugais"/>
+  <language detect="pt_br" available="english" name="Portugais (Brésil)"/>
+  
+  <!-- OTHER --> 
+  <language detect="sq" available="english" name="Albanais"/>
+  <language detect="eu" available="english" name="Basque"/>
+  <language detect="be" available="english" name="Biélorussie"/>
+  <language detect="bg" available="english" name="Bulgarre"/>
+  <language detect="ca" available="english" name="Catalan"/>
+  <language detect="ko" available="english" name="Coréein"/>
+  <language detect="cs" available="english" name="Crète"/>
+  <language detect="hr" available="english" name="Croate"/>
+  <language detect="da" available="english" name="Danois"/>
+  <language detect="et" available="english" name="Estonien"/>
+  <language detect="sx" available="english" name="Estonien"/>
+  <language detect="fo" available="english" name="Faeroese"/>
+  <language detect="fi" available="english" name="Finlandais"/>
+  <language detect="gd" available="english" name="Galicien"/>
+  <language detect="el" available="english" name="Gréc"/>
+  <language detect="he" available="english" name="Hébreux"/>
+  <language detect="hu" available="english" name="Hongrois"/>
+  <language detect="in" available="english" name="Indonésien"/>
+  <language detect="hi" available="english" name="Indou"/>
+  <language detect="fa" available="english" name="Iranien"/>
+  <language detect="is" available="english" name="Islandais"/>
+  <language detect="ja" available="english" name="Japonais"/>
+  <language detect="lv" available="english" name="Lettische"/>
+  <language detect="lt" available="english" name="Littuanien"/>
+  <language detect="mk" available="english" name="Macédoine"/>
+  <language detect="ms" available="english" name="Malésien"/>
+  <language detect="mt" available="english" name="Maltais"/>
+  <language detect="no" available="english" name="Norvégien"/>
+  <language detect="pl" available="english" name="Polonais"/>
+  <language detect="rm" available="english" name="Rhaeto-Romanic"/>
+  <language detect="sr" available="english" name="Serbe"/>
+  <language detect="sk" available="english" name="Slovaque"/>
+  <language detect="sl" available="english" name="Slovéne"/>
+  <language detect="sb" available="english" name="Sorbian"/>
+  <language detect="th" available="english" name="Thaïlandais"/>
+  <language detect="tr" available="english" name="Turc"/>
+  <language detect="uk" available="english" name="Ukrainien"/>
+  <language detect="ur" available="english" name="Urdu"/>
+  <language detect="vi" available="english" name="Vietnamien"/>
+  <language detect="ji" available="english" name="Yiddish"/>
+</languages>

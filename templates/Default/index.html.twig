@@ -1,0 +1,13 @@
+{% extends "gab.html.twig" %}
+{#% block title %}{{ parent() }}{% endblock %#}
+{#% block page_title %}{{ parent() }}{% endblock %#}
+{% block lead_content %}Ready to fly...{% endblock %}
+{% block content %}
+    {{ RDR.LANGUAGE }} <br>
+    {% if RDR.LANGUAGE == 'Français' %}
+        Infity est maintenant en cours d'exécution! Commencez dès maintenant votre projet incroyable et rejoignez ainsi les super-développeurs du monde entier.
+    {% else %}
+        Infity is perfectly running now! You can start your amazing project and be a part of the incredible developers team.
+{% endif %}
+
+{% endblock %}

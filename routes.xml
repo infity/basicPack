@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<routes>
+  <!-- BASIC PAGE --> 
+  <route url="" module="Default" action="index" name="home"/>
+  <route url="contact/" module="Default" action="contact" name="contact"/>
+  <route url="about/" module="Default" action="about" name="about"/>
+  <route url="legal-information/" module="Default" action="terms" name="mentions"/>
+  <route url="privacy/" module="Default" action="privacy" name="privacy"/>
+  <route url="sitemap/" module="Default" action="sitemap" name="sitemap"/>
+  
+  <!-- AJAX TEST -->
+  <route url="test-ajax/" module="Default" action="ajax" name="ajax"/>
+  
+  <!-- CHANGE LANGUAGE -->
+  <route url="(.*)lang-(.+)/" module="Default" action="language" vars="route, lang" name="language"/>
+</routes>

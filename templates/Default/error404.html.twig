@@ -1,0 +1,6 @@
+{% extends "gab.html.twig" %}
+{% block content %}
+        <img src="{{RDR.MINIFIER.importFile('infity::basicPack','img/error404.png')}}" alt="404 error" style=""/>
+            <p>{{ RDR.TRANSLATE.info|capitalize }}</p>
+            <p>{{ message|capitalize }}</p>
+{% endblock %}

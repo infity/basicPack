@@ -1,0 +1,13 @@
+{% extends "gab.html.twig" %}
+
+{#% block title %}Contact - {{ parent() }}{% endblock %#}
+{% block lead_content %}{{ RDR.TRANSLATE.info|capitalize }}{% endblock %}
+{% block content %}
+    {% if  send %}
+        <!-- MESSAGE -->
+        <p>{{ RDR.TRANSLATE.send }}</p>
+        <!-- MESSAGE -->
+    {% else %}
+        <div class="contactform" >{{ form|raw }}</div>
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends "gab.html.twig" %}
+{% block lead_content %}{{ RDR.TRANSLATE.info|capitalize }}{% endblock %}
+{% block content %}
+    {% if RDR.LANGUAGE == 'Français' %}
+        Je suis un super-développeur.
+    {% elseif RDR.LANGUAGE == 'English' %}
+        I am an incredible developer.
+    {% else %}
+        I'm an incredible developer.
+    {% endif %}
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends "gab.html.twig" %}
+{% block content %}
+<h2>Statement of liability for use of the {{ RDR.WEB_URL }} website</h2>
+You are currently connected to the {{ siteName|capitalize }} corporate site.
+By accessing this site, the user commits to the current conditions of use.
+
+<h3>Editor's information:</h3>
+This site is edited by:
+{{ editor.name }}, a company incorporated under the laws of France.<br>
+{{ editor.address }}<br>
+{{ editor.country }}<br>
+Tel.: {{ editor.phone }}<br>
+Contact : {{ editor.mail }}<br>
+
+<h3>Publishing Director:</h3> {{ publishingDirector }}
+
+<h3>Host information:</h3>
+This site is hosted by:<br>
+{{ host.name|capitalize }}<br>
+{{ host.address|raw }} <br>
+{{ host.country }} <br>
+Phone : {{ host.phone }}<br>
+Contact : {{ host.mail }}<br>
+
+<h3>Data Protection</h3>
+For more information on the {{ siteName|capitalize }} data protection policy, please see <a href="{{ RDR.ROUTE.privacy }}">{{ RDR.LAYOUT.TRANSLATE.value('privacy') }}</a>.
+
+<h3>Copyright</h3>
+The site's presentation and each element, including the domain name, trademarks, logos, brand names, drawings, illustrations, photographs, texts, graphics and other files found on this site, are protected by the intellectual property laws and belong to {{ siteName|capitalize }} or have been authorized for the use of {{ siteName|capitalize }}.<br>
+No element found on {{ RDR.WEB_URL }} may be copied, reproduced, modified, reissued, loaded, altered, transmitted or distributed in any way whatsoever or in any form whatsoever, either partially or fully, without the prior written authorization of {{ siteName|capitalize }}, except in the case of strictly personal, private and non-commercial use, without changing the current elements on the site.<br>
+The following must accompany all full or partial copies of the site's content:<br>
+"© Copyright {{ siteName|capitalize }}. The photographs used on {{ RDR.WEB_URL }} are non-binding."<br>
+Any other use of {{ RDR.WEB_URL }} or the elements therein without express authorization would be considered an infringement upon the rights of {{ siteName|capitalize }} and indictable as counterfeit under articles L. 355-2 et seq. of the French Intellectual Property Code.<br>
+
+<h3>{{ siteName|capitalize }} rights as the producer of a database</h3>
+All clients, customers, prospects and partners have the non-exclusive, non-transferable and inalienable personal right to view the information found on {{ RDR.WEB_URL }} for their own information needs.<br>
+They may extract and/or reuse part of this site's content for personal viewing purposes, as long as this extraction and/or reuse does not concern a substantial (either in terms of quality or quantity) portion of the site's content. Moreover, it is prohibited to extract and/or reuse any of this site's content repeatedly, even if the content is not substantial.<br>
+Any full or partial reproduction of the site for other means is strictly prohibited by articles L. 342-1 and L. 342-2 of the French Intellectual Property Code. It is also prohibited to communicate to the public all or part of the site's content, in any form and to any audience whatsoever.<br>
+In particular, it is strictly prohibited to use this site's content for commercial purposes.<br>
+
+<h3>Responsibility</h3>
+All of the information accessible through this site is provided as is. {{ siteName|capitalize }} gives no explicit or implicit guarantees and assumes no responsibility for the use of this information.<br>
+The user has sole responsibility for the use of this information.<br>
+{{ siteName|capitalize }} reserves the right to edit this information at any time, in particular through updates to {{ RDR.WEB_URL }}.<br>
+{{ siteName|capitalize }} cannot be held responsible for any direct or indirect damage that may result from information found on this site.<br>
+The user undertakes not to transmit any information on this site that would involve civil or legal liability and, in this respect, undertakes not to divulge any information that is illegal, libelous or against public order through this site.<br>
+{{ siteName|capitalize }} does everything within its means to provide its users with the available information and/or tools that have been verified, but it cannot be held responsible for any errors, for a lack of available information and/or for the presence of viruses on {{ RDR.WEB_URL }}.<br>
+Sites that are external to {{ siteName|capitalize }} with hyperlinks to this site are not subject to the control of {{ siteName|capitalize }}, which, as a consequence, declines all responsibility for their content. The user assumes full responsibility for use of these sites.
+
+<h3>Cookies</h3>
+For more information on the use of Cookies on {{ RDR.WEB_URL }}, please see <a href="{{ RDR.ROUTE.privacy }}">{{ RDR.LAYOUT.TRANSLATE.value('privacy') }}</a> page.
+
+<h3>Hyperlinks</h3>
+The creation of hyperlinks to {{ RDR.WEB_URL }} requires the prior written consent of {{ siteName|capitalize }}.<br>
+For any request, you may follow <a href="{{ RDR.ROUTE.contact }}" >{{ RDR.LAYOUT.TRANSLATE.value('menuContact') }}</a> section, and then send request message.
+
+<h3>Email</h3>
+For any comments or questions on {{ siteName|capitalize }}, you may send an e-mail message here: <a href="{{ RDR.ROUTE.contact }}" >{{ RDR.LAYOUT.TRANSLATE.value('menuContact') }}</a>.<br>
+
+<h3>Credits</h3>
+<h4>Photos</h4>
+{{ credits.photo|raw }}
+<h4>Developpers</h4>
+{{ credits.dev|raw }}
+<h4>Designers</h4>
+{{ credits.design|raw }}
+<h4>Webmasters</h4>
+{{ credits.webmaster|raw }}
+
+<h3>Please note</h3>
+Any messages sent through the Internet are subject to interception and cannot be guaranteed as confidential until they reach us.
+<br><br>
+{% endblock %}
