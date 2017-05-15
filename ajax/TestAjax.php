@@ -10,16 +10,9 @@ class TestAjax extends AjaxBuilder {
      * ajaxBuild()
      * ici on construit notre requête Ajax
      ************************************************************/
-    public function  ajaxBuild (\model\User $user = null) {
-        //$this->method ='POST';
-        parent::create(__CLASS__);
-        
+    public function  ajaxBuild ($data = null) {        
         $this->ajax->add('nom_utilisateur', 'nom_utilisateur');
-        
         $this->ajax->success('ajax'); //id du bloc HTML que l'on veut mettre à jour
-        
-        
-        return $this->ajax; 
     }
     
     /************************************************************
