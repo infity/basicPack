@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\language\french\form;
+namespace packages\infity\basicpack\language\french\form;
 use core\TranslateBound as TranslateBound;
 
 

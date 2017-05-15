@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\form;
+namespace packages\infity\basicpack\form;
 use core\FormBuilder as FormBuilder;
 
 class ContactForm extends FormBuilder {

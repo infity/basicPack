@@ -1,5 +1,5 @@
 {
-    "name": "infity/basicPack",
+    "name": "infity/basicpack",
     "type": "infity-package",
     "description": "Basic website pages for Infity frameWork",
     "keywords": ["infity", "package"],

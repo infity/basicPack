@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\ajax;
+namespace packages\infity\basicpack\ajax;
 use core\AjaxBuilder as AjaxBuilder;
 use core\Ajax as Ajax;
 use core\Application as Application;

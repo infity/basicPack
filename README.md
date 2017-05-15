@@ -1,11 +1,11 @@
 ## README ##
-Find here some information for basicPack package.
+Find here some information for basicpack package.
 ### Package description ###
 Basic website pages
 ### Package structure ###
-The basicPack package structure:
+The basicpack package structure:
 ```
-basicPack
+basicpack
 |_ ajax/
 |_ controller/ -- all package controllers
     |_ DefaultController.php -- default controller

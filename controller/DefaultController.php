@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\controller;
+namespace packages\infity\basicpack\controller;
 use core\Render as Render;
 use core\Controller as Controller;
 use core\Application as Application;

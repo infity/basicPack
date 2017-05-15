@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\language\english\layout;
+namespace packages\infity\basicpack\language\english\layout;
 use core\TranslateBound as TranslateBound;
 
 class BaseLayoutTranslate extends TranslateBound {

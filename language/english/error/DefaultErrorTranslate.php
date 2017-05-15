@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\language\english\error;
+namespace packages\infity\basicpack\language\english\error;
 use core\TranslateBound as TranslateBound;
 
 class DefaultErrorTranslate extends TranslateBound {

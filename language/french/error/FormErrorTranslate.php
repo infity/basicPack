@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\language\french\error;
+namespace packages\infity\basicpack\language\french\error;
 use core\TranslateBound as TranslateBound;
 
 class FormErrorTranslate extends TranslateBound {

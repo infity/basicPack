@@ -1,11 +1,11 @@
 <?php
-namespace packages\infity\basicPack;
+namespace packages\infity\basicpack;
 
 
 class Config {
     
     
-    /**************** BASICPACK CONFIG *******************/
+    /**************** basicpack CONFIG *******************/
     const CONTACTMAIL = 'your@mail.com';
     const SENDER = 'contactform@bd.net';
     
@@ -29,7 +29,7 @@ class Config {
     
     /*CREDITS*/
     const PHOTOCREDITS = '© Infity'; //photo credits
-    const DEVCREDITS = '© Infity Framework: <a href="#" title="Infity Framework" target="_blank">Infity website</a> <br> © Infity/basicPack'; //dev credits
+    const DEVCREDITS = '© Infity Framework: <a href="#" title="Infity Framework" target="_blank">Infity website</a> <br> © Infity/basicpack'; //dev credits
     const DESIGNCREDITS = '© Infity <a href="#" title="Infity Framework" target="_blank">Infity website</a> <br> © BootStrap <a href="http://getbootstrap.com" title="BootStrap" target="_blank">bootstrap.com</a>'; //design credits
     const WEBMASTERCREDITS = ''; //webmaster credits
 }

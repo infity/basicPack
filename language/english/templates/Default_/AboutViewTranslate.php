@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\language\english\templates\Default_;
+namespace packages\infity\basicpack\language\english\templates\Default_;
 use core\TranslateBound as TranslateBound;
 
 class AboutViewTranslate extends TranslateBound {

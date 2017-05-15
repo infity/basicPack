@@ -46,7 +46,7 @@
     $.ajax({
         type: "POST",
         url: "http://localhost/01_lab/000_MVC_STRUCT/ajax.php",
-        data: "pk=basicPack&nm=test"+"&Text="+nom_utilisateur,
+        data: "pk=basicpack&nm=test"+"&Text="+nom_utilisateur,
         success: function(msg){
          $("#ajax").hide();
          $("#ajax").empty().append(msg);

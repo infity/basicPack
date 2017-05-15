@@ -1,5 +1,5 @@
 <?php
-namespace packages\infity\basicPack\layout;
+namespace packages\infity\basicpack\layout;
 use \core\Layout as Layout;
 
 
